@@ -2,6 +2,8 @@
 
 This tool scrapes data from [h1bdata.info](https://h1bdata.info/), presenting the number of H1B filings by various companies based on user inputs.
 
+NOTE/CAUTION: This is code can break, and I created it knowing what I wanted from it. If you want it to be robust and handle all the edge cases, you can go ahead. 
+
 ## Table of Contents
 
 - [Description](#description)
