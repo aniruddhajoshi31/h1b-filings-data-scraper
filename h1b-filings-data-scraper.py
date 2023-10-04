@@ -108,10 +108,10 @@ class H1BScraper:
 
 
 # Takes user inputs for the search parameters
-employer_input = input("Enter the employer (leave empty if not specific): ")
-job_input = input("Enter the job/position (leave empty if not specific): ")
-city_input = input("Enter the city (leave empty if not specific): ")
-year_input = input("Enter the year (leave empty if not specific): ")
+employer_input = input("Enter the employer (leave empty if not specific): ").lower()
+job_input = input("Enter the job/position (leave empty if not specific): ").lower()
+city_input = input("Enter the city (leave empty if not specific): ").lower()
+year_input = input("Enter the year (leave empty if not specific): ").lower()
 
 # Instantiates the scraper and fetch the data
 scraper = H1BScraper(employer_input, job_input, city_input, year_input)
