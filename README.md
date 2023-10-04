@@ -29,7 +29,7 @@ The results are displayed in a sorted list, showing companies and the number of 
 
 ## Installation
 
-```bash
+```
 # Clone the Repository
 git clone https://github.com/aniruddhajoshi31/h1b-filings-data-scraper
 
@@ -38,3 +38,23 @@ cd h1b-filings-data-scraper
 
 # Install Required Python Libraries
 pip install -r requirements.txt
+```
+## Usage
+
+After installation, you can run the Jupyter Notebook and follow the interactive prompts to input your search criteria.
+
+## Contributing
+
+If you wish to contribute to this project:
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/YourFeatureName`)
+3. Commit your changes (`git commit -m 'Add a feature'`)
+4. Push to the branch (`git push origin feature/YourFeatureName`)
+5. Open a pull request
+
+## License
+
+This project is open source and available to anyone under the [MIT License](LICENSE).
+
+
